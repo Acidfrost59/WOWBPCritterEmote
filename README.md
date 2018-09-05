@@ -1,5 +1,7 @@
-﻿# critteremote
+#
 WoW Addon BP Critter Emote
+
+Originally authored by Zompter, then seegeen00, I loved this add-on so much I just couldn't let it go.  The add-on guidelines required a rename. 
 
 This addon will have your non-combat pets do fun and random things. 
 
