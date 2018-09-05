@@ -1,0 +1,15 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.blizzard.com/wow/ui/ 
+ ..\..\FrameXML\UI.xsd">
+  <Script File="CritterEmote.lua"/>
+  <Frame name="CritterEmoteFrame">
+   <Scripts>
+	 <OnLoad>
+	  CritterEmote_OnLoad();
+	 </OnLoad>
+     <OnUpdate function="CritterEmote_OnUpdate" />  
+	 <OnEvent function="CritterEmote_OnEvent" />
+   </Scripts>
+  </Frame>
+</Ui> 
