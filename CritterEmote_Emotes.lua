@@ -1,6 +1,6 @@
 ﻿--Critter Emote
 
---The emote table was rewritten at version 1.14 WOW version 8.0.1
+--The emote table was rewritten at version 1.14a WOW version 8.0.1
 
 --Some important Emote tables
 ---Random
@@ -16,9 +16,9 @@ ABSENT = {
   inanimate = { "sits there.", },
   elemental = { "turns lazily.", },
   spider = { "blinks all eight eyes at you.", },
-  flying_insect = { "buzzes around your head", },
+  flying_insect = { "buzzes around your head.", },
   fish = { "blows bubbles.", },
-  chicken = { "pecks at your feet", },
+  chicken = { "pecks at your feet.", },
   ["Deathy"] = { "starts a little fire.", },
   ["Lil' Deathwing"] = { "starts a little fire.", },
   ["Lil' K.T."] = { "is used to dealing with absent minded zombies.", }
@@ -37,7 +37,7 @@ AMAZE = {
 	evil = { "smiles wickedly. Yep, still got it.", },
 	dragon = { "agrees that they are amazing. Check this out!", },
     ["Deathy"] = { "is the ultimate murloc-Deathwing crossbreed.", },
-    ["Gregarious Grell"] = { "does a front flip", },
+    ["Gregarious Grell"] = { "does a front flip.", },
     ["Lil' Deathwing"] = { "is amazing because he's the spawn of Deathwing.", },
 	["Lil' K.T."] = { "is amazing and once was the most powerful Kirin Tor mage.", },
 	["Lil' Ragnaros"] = { "allows you to bask in the glory of the Firelord.", },
@@ -56,7 +56,7 @@ ANGRY = {
 	dragon = { "blows some smoke in your face.", },
 	["Deathy"] = { "blows some smoke in your face.", },
 	["Gregarious Grell"] = { "says, \"Can't we all just get along?\"", },
-	["Lil' Deathwing"] = { "threatens to set your pants leg on fire.", },
+	["Lil' Deathwing"] = { "threatens to set your pant leg on fire.", },
 	["Lil' K.T."] = { "advises you to lower it.  You wouldn\'t like him when he\'s angry.", },
 	["Lil' Ragnaros"] = { "challenges you to a duel.", },
 },
@@ -67,9 +67,9 @@ APOLOGIZE = {
 APPLAUD = {
 	default = { "takes a bow.", },
 	ooze = { "bounces up and down happily.", },
-	moth = { "makes an amazing flight bow.", },
+	moth = { "makes an amazing in flight bow.", },
 	dragon = { "makes an Immelman turn in the air.", },
-	["Gregarious Grell"] = { "runs around in a circle, cheering", },
+	["Gregarious Grell"] = { "runs around in a circle, cheering.", },
 	["Lil' Deathwing"] = { "makes an Immelmann turn in the air.", },
 	["Lil' K.T."] = { "smiles narcissistically.", },
 },
@@ -79,8 +79,8 @@ ARM = {
 	evil = { "pushes you away.", },
 	ooze = { "clings to your arm.", },
 	reptile = { "curls around your arm.", },
-    ["Deathy"] = { "is hot to the touch! Ouch! That burns!.", },
-    ["Lil' Deathwing"] = { "is hot to the touch! Ouch! That burns!.", },
+    ["Deathy"] = { "is hot to the touch! Ouch! That burns!", },
+    ["Lil' Deathwing"] = { "is hot to the touch! Ouch! That burns!", },
 	["Lil' K.T."] = { "is cold to the touch! Ouch! Frostbolt!", },
 },
 ATTACKMYTARGET = {
@@ -116,7 +116,8 @@ BADFEELING = {
     ["Lil' K.T."] = { "taunts you. Bring it!", },
 },
 BARK = {
-	default = { "barks back.", },
+	default = {"is at a loss.", },
+	dog = { "barks back.", },
 	cat = { "wonders if you have lost your mind.", },
 	evil = { "haughtily informs you that there's no need to bark at them.", },
 	frog = { "ribbits at you.", },
@@ -138,7 +139,7 @@ BECKON = {
 	cat = { "runs off, bored with you.", },
 	evil = { "laughs maniacally.", },
 	["Ethereal Soul-Trader"] = { "says, \"I have something that might interest you, stranger.\"", },
-    ["Deathy"] = { "hops towards you", },
+    ["Deathy"] = { "hops towards you.", },
 	["Gregarious Grell"] = { "says, \"Alright, I'm coming.\"", },
     ["Lil' Deathwing"] = { "flies closer.", },
 	["Lil' K.T."] = { 
@@ -173,9 +174,9 @@ BLAME = {
 	default = { "cries.", },
 	cat = { "doesn't seem to care and strolls away, tail raised and swaying mockingly.", },
 	inanimate = { "wonders how it could be its fault.", },
-    ["Deathy"] = { "apologizes for your many Dragon Soul wipes", },
+    ["Deathy"] = { "apologizes for your many raid wipes", },
 	["Gregarious Grell"] = { "says, \"I was only following orders!\"", },
-    ["Lil' Deathwing"] = { "apologizes for your many Dragon Soul wipes", },
+    ["Lil' Deathwing"] = { "apologizes for your many raid wipes.", },
 	["Lil' K.T."] = { "haughtily informs you the failure is yours!", },
     ["Lil' Ragnaros"] = { "blames Malfurion Stormrage.", },
 },
@@ -188,7 +189,7 @@ BLANK = {
 BLEED = {
 	default = nil,
 	evil = { "is not squeamish.", },
-	humanoid = { "looks for some Silkweave bandages.", },
+	humanoid = { "looks for some appropriate bandages.", },
 	elemental = { "asks if you want %t to cauterize the wound.", },
     ["Deathy"] = { "asks if you want %t to cauterize the wound.", },
     ["Lil' Deathwing"] = { "asks if you want %t to cauterize the wound.", },
@@ -218,11 +219,11 @@ BONK = {
 	flying_insect = { "flies erratically.", },
 },
 BORED = {
-	default = { "yawns, let's do something", },
+	default = { "yawns, let's do something, anything.", },
 	ooze = { "moves sluggishly.", },
     ["Deathy"] = { "sets a nearby object on fire!", },
     ["Gregarious Grell"] = { "says, \"My last master died of boredom.\"", },
-    ["Lil' Deathwing"] = { "asks you if you would like to raid Dragon Soul?", },
+    ["Lil' Deathwing"] = { "asks you if you would like to raid Antorus, the Burning Throne?", },
 	["Lil' K.T."] = { "is bored with you and your constant raids against his fortress.", },
     ["Lil' Ragnaros"] = { "asks if you want to raid Naxxramas.", },
 },
@@ -257,7 +258,7 @@ BREATH = {
 		"takes a deep breath.",
 	},
 	mech = { 
-		"starts to emanate smoke. Oh no! It's on fire.", 
+		"starts to emanate smoke. Oh no! It's on fire!", 
 		},
 	["Onyxian Whelpling"] = { 
 		"summons more whelps!",
@@ -280,7 +281,7 @@ BURP = {
 		"thinks you're disgusting.",
 	},
 	dragon = { 
-		"burps a puff of fire.",
+		"burps out a puff of fire.",
 	}, 
 	ooze = { 
 		"burps out a wishbone.",
@@ -289,13 +290,13 @@ BURP = {
 		"lets out a loud belch.",
 	},
 	cat = {
-		"coughs up a hairball.",
+		"burps up a hairball.",
 	},
 	reptile = {
-		"coughs up a small critter.",
+		"burps up a small critter.",
 	},
     ["Deathy"] = {
-   "burps out a puff of fire.",
+   "burps out a puff of green nastiness.",
     },
 },
 BYE = {
@@ -352,7 +353,7 @@ CHARM = {
 },
 CHEER = {
 	default = {
-		"makes victorious shouts.",
+		"Celebrates!",
 	},
 	bird = { 
 		"fans out wings and lets out a victory screech.", 
@@ -360,11 +361,11 @@ CHEER = {
 	crab = { 
 		"raises claws in air.", 
 		},
-	humanoid = { "raises hands in the air victoriously.",
+	humanoid = { "raises hands in the air and shouts victoriously!",
 	},		
 	mech = { 
 		"fires out a mini celebration firework.", 
-		},		
+		},
 },
 CHICKEN = {
 	default = { "is ready! Bring it!", },
@@ -384,7 +385,7 @@ CHUCKLE = {
 	default = { "wants to know what's so funny?!", },
 	cat = { "meow?!", },
 	dog = { "woof?!", },
-	reptile = { "hiss?!", },
+	snake = { "hiss?!", },
 	inanimate = { "doesn't get your humor.", },
 },
 CHUG = {
@@ -409,14 +410,14 @@ COLD = {
 		"looks for a warm rock to hide under.", 
 		},
     ["Deathy"] = {
-   "breathes some fire at your pants leg to warm you up",
+   "breathes some fire at you to warm you up",
   },
     ["Lil' Deathwing"] = {
-   "breathes some fire at your pants leg to warm you up",
+   "breathes some fire at you to warm you up",
   },
   ["Lil' K.T."] = { "lets you know he's always cold. Ice ice baby.", },
   ["Lil' Ragnaros"] = {   
-		"sets your pants leg on fire. Hot!",
+		"sets your pant leg on fire. Hot!",
 		},
 },
 COMFORT = {
@@ -2295,6 +2296,12 @@ Random = {
 	undead = {
 		"sings, \"Stop running now, I'm already dead, yeah.\"",
 	},
+	ooze = {
+		"sings, \"Oops!...I did it again.",
+		"apologizes for the mess.",
+		"hopes you will clean him out soon.",
+		"wonders what it is like up a nose.",
+	},
 	Winter_Veil = {
 		"sings, \"It's beginning to look a lot like Winter Veil, here and everywhere.\"",
 		"sings, \"Oh the weather outside is frightful, but inside it's so delightful.\"",
@@ -2315,12 +2322,12 @@ Random = {
 		"sings, \"There's a zombie on your lawn.\"",
 		"sings, \"Da da do do do do do oo.\"",
 	 },
-	 ooze = {
-		 "sings, \"Oops!...I did it again.",
-		 "apologizes for the mess.",
-		 "hopes you will clean him out soon.",
-		 "wonders what it is like up a nose.",
-	 }
+	 ["Argent Grumpling"] = {
+		"sings, \"It\'s the hard-knock life for us! It\'s the hard-knock life for us! \'Steada treated, we get tricked! \'Steada kisses, we get kicked! It\'s the hard-knock life!\"",
+	 },
+	 ["Argent Squire"] = {
+		"sings, \"It\'s the hard-knock life for us! It\'s the hard-knock life for us! \'Steada treated, we get tricked! \'Steada kisses, we get kicked! It\'s the hard-knock life!\"",
+	 },
 },
 SAD = {
 	default = nil,
