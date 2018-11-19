@@ -1,7 +1,7 @@
 #
 WoW Addon BP Critter Emote
 
-Originally authored by Zompter, then seegeen, I loved this add-on so much I just couldn't let it go.  The add-on guidelines required a rename. 
+Originally authored by Zompter, then Seegeen, I loved this add-on so much I just couldn't let it go.  The add-on guidelines required a rename. 
 
 This addon will have your non-combat pets do fun and random things. 
 
@@ -38,7 +38,7 @@ random - anything
 target - if something is targeted
 
 Version 1.14b
-Addition of new pets. General Emote maintenance.
+Addition of new pets. General Emote updates.
 
 Version 1.14a
 Fixed bug that caused addon to continuously emote

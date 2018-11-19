@@ -4423,5 +4423,5 @@ CritterEmote_Personalities = {
 		["Zomstrok"] = "crab",
 		["Zooey Snake"] = "reptile",
 		["Zoom"] = "snail",
-	}
-	
+	},
+}
