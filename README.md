@@ -1,7 +1,7 @@
 #
 WoW Addon BP Critter Emote
 
-Originally authored by Zompter, then seegeen00, I loved this add-on so much I just couldn't let it go.  The add-on guidelines required a rename. 
+Originally authored by Zompter, then seegeen, I loved this add-on so much I just couldn't let it go.  The add-on guidelines required a rename. 
 
 This addon will have your non-combat pets do fun and random things. 
 
@@ -11,7 +11,7 @@ Your pets will also now respond to in-game interaction.  Try /wave while targett
 
 They might just do something different when you target another player or NPC.
 
-If you would like to add your own emotes you can go into the CritterEmote file in addons and edit the file CritterEmote_Emotes.lua You can also delete the emotes you just don't like. Keep in mind that when you modify the file, you will need to remodify the file when it is updated. You may want to make a list in notepad of deletions/additions for your own ease or save a copy of CritterEmote_Emotes.lua in the file. The copied lua should say "-Copy" at the end of the file (i.e. CritterEmote_Emote-Copy.Lua). You can then open the files in your favorite editor for ease of comparison and editing. (I use Visual Basic).
+If you would like to add your own emotes you can go into the CritterEmote file in addons and edit the file CritterEmote_Emotes.lua You can also delete the emotes you just don't like. Keep in mind that when you modify the file, you will need to remodify the file when it is updated. You may want to make a list in notepad of deletions/additions for your own ease or save a copy of CritterEmote_Emotes.lua in the file. The copied lua should say "-Copy" at the end of the file (i.e. CritterEmote_Emote-Copy.Lua). You can then open the files in your favorite editor for ease of comparison and editing. (I use Visual Studio Code).
 
 If you would like to see an emote added or deleted please send the request to me for review. 
 
@@ -37,6 +37,8 @@ emote - such as /cry or /wave
 random - anything
 target - if something is targeted
 
+Version 1.14b
+Addition of new pets. R
 
 Version 1.14a
 Fixed bug that caused addon to continuously emote
