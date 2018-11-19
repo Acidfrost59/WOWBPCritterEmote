@@ -1,4 +1,4 @@
-﻿--Critter Emote
+--Critter Emote
 
 local CritterEmote_Cats = {
   Silly = true;
@@ -16,7 +16,7 @@ local CritterEmote_Tooltip = nil ;
 local CritterEmote_enable = true;
 local CritterEmote_randomEnable = true;
 local CritterEmote_forceEmote = false;
-local CritterEmote_version = "1.14a";
+local CritterEmote_version = "1.14b";
 local is5_0 = select(4, GetBuildInfo()) < 50100
 local _G = _G
 local C_PetJournal = _G.C_PetJournal
