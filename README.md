@@ -38,7 +38,7 @@ random - anything
 target - if something is targeted
 
 Version 1.14b
-Addition of new pets. R
+Addition of new pets. General Emote maintenance.
 
 Version 1.14a
 Fixed bug that caused addon to continuously emote
