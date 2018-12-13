@@ -1,7 +1,7 @@
 #
 WoW Addon BP Critter Emote
 
-Originally authored by Zompter, then Seegeen, I loved this add-on so much I just couldn't let it go.  The add-on guidelines required a rename. 
+Originally authored by Zompter, then Seegeen00, I loved this add-on so much I just couldn't let it go.  The add-on guidelines required a rename. 
 
 This addon will have your non-combat pets do fun and random things. 
 
@@ -36,6 +36,9 @@ Under each category there is
 emote - such as /cry or /wave
 random - anything
 target - if something is targeted
+
+Version 1.14c
+Updated to BFA patch 8.1.0, addition of new pets, changed chat emote from owner's to owner:
 
 Version 1.14b
 Addition of new pets. General Emote updates.

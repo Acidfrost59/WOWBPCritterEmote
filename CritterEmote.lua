@@ -16,7 +16,7 @@ local CritterEmote_Tooltip = nil ;
 local CritterEmote_enable = true;
 local CritterEmote_randomEnable = true;
 local CritterEmote_forceEmote = false;
-local CritterEmote_version = "1.14b";
+local CritterEmote_version = "1.14c";
 local is5_0 = select(4, GetBuildInfo()) < 50100
 local _G = _G
 local C_PetJournal = _G.C_PetJournal
@@ -560,9 +560,9 @@ end
 --Any formating functions for displaying the emote
 function CritterEmote_DisplayEmote (message)
         if (string.sub(UnitName("player"), string.len(UnitName("player"))) == "s") then
-                nameAdd = '\' ';
+                nameAdd = ' ';
         else
-                nameAdd = '\'s ';
+                nameAdd = ': ';
         end
         CritterEmote_EmoteToSend = nameAdd  .. message;
 end
