@@ -1,12 +1,12 @@
-# BPCritterEmote
+lightweight tag 014372f8757008234d568ac912fc023f35a01b32 v1.14c
+Author:    GitHub <noreply@github.com>
+Date:    Thu Dec 13 13:43:16 2018 -0800
 
-## [v8.1.0](https://github.com/Acidfrost59/WOWBPCritterEmote) (2018-12-16)
+commit 014372f8757008234d568ac912fc023f35a01b32
+Author: Kris Springer <Acidfrost59@gmail.com>
+Date:   Thu Dec 13 13:43:16 2018 -0800
 
-changeset:   
-tag:         v8.1.0
-user:        Acidfrost59
-date:        
-
+Version 1.14d
 Created change log from the Readme.txt file. 
 
 Version 1.14c Updated to BFA patch 8.1.0, addition of new pets, changed chat emote from owner's to owner:
