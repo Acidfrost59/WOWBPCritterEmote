@@ -2149,7 +2149,7 @@ Random = {
 		"wants to make sure you are prepared.",
 		"says \"You want the truth!  You can't handle the truth!\"",
 		"wants to boldly go where no pet has gone before!",
-		"I am not "
+		"I am not a %t",
 		"says \"YOLO\"",
 		"dreams of being a little pony.",
 		"gets drunk.",
