@@ -1,13 +1,13 @@
 #
 WoW Addon BP Critter Emote
 
-Originally authored by Zompter, then Seegeen00, I loved this add-on so much I just couldn't let it go.  The add-on guidelines required a rename. 
+The addon in your file will say, "CritterEmote".
 
 This addon will have your non-combat pets do fun and random things. 
 
 When you have a pet out it will emote something fun every 5 minutes or so as long as you aren't in combat.  If you desire them to emote something custom you can use /ce instead of /emote.
 
-Your pets will also now respond to in-game interaction.  Try /wave while targetting your pet.
+Your pets will also respond to in-game interaction.  Try /wave while targetting your pet.
 
 They might just do something different when you target another player or NPC.
 
@@ -37,102 +37,4 @@ emote - such as /cry or /wave
 random - anything
 target - if something is targeted
 
-Version 1.14c
-Updated to BFA patch 8.1.0, addition of new pets, changed chat emote from owner's to owner:
-
-Version 1.14b
-Addition of new pets. General Emote updates.
-
-Version 1.14a
-Fixed bug that caused addon to continuously emote
-
-Version 1.14
-Updated to Battle for Azeroth
-Please note that I am working on toggles for Faction and turning on and off the Song, Location, Seasonal, and Silly emotes.  
-
-Version 1.13a
-Updated to latest Legion patch (not published)
-
-Version 1.13
-Updated to Legion
-Included updates from Acidfrost59
-Big thanks to Acidfrost59 for adding many more emotes and fixing some minor issues!
-
-Version 1.11a
-Fixed some typos's added user requested emotes.
-
-Version 1.11
-Works with 6.2
-
-Version 1.10a
-One can now just turn off/on random emotes via: /ce random_off or /ce random_on
-Fixed Typos
-
-Version 1.10
-Works with 6.1.0
-
-Version 1.9b/c/d
-Fixed typos
-
-Version 1.9a
-Invaded by the old ones!
-(more emotes)
-
-Version 1.9
-More emotes! (and corrections)
-
-Version 1.8a
-Now respects custom pet names.
-
-Version 1.8
-Works with 6.0
-Back again Chin is back Tell a friend
-
-Version 1.7b
-Works with 5.2.0
-
-Version 1.7a
-Fixed a bug where Critter Emote would crash if no pet was out.
-
-Version 1.7
-Updated to MoP!
-Big Thanks to Liz.
-
-Version 1.6
-Updated by Jî - Sylvanas
-Big Thanks!
-Spellchecked (might have missed a few, but did alot) added all currents pets into the roster. Gave lil' ragnaros and gregarious grell quite alot of custom emotes.
-
-Version 1.5b
-Updated for 4.3 version of the game.
-
-Version 1.5a
-Updated for 4.1 version of the game.
-
-Version 1.5
-Rewrite of Emote Database.  This makes it easier to add new types without having the file size grow too large.  Also speeds things up slightly.
-Added a lot more responsive emotes.
-
-Version 1.4
-Snake type creatures now have a full personality
-Now remembers your state between sessions
-Emotes now have a category.  This way you can turn on and off certain types of emotes.
-silly, locations, jokes, songs
-/ce help for more info on this.
-
-Version 1.3
-cat type creatures now have a full personality
-Fixed a bug where pet types and names were not correctly being called in the table.
-
-Version 1.2
-Added more emotes.
-Fixed typos
-Random interval time is longer.
-
-Version 1.1
-Added additional emotes.
-Removed some debugging info.
-Now seed the random a bit better.
-
-Version 1.0
-Initial Version
+CritterEmote was originally authored by Zompter, then Seegeen, I loved this add-on so much I just couldn't let it go.  The add-on guidelines required a rename for CurseForge, though it is still found under CritterEmote.

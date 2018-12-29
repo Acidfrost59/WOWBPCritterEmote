@@ -1,17 +1,61 @@
-# BPCritterEmote
+﻿# BPCritterEmote
 
 ## [v8.1.0](https://github.com/Acidfrost59/WOWBPCritterEmote) (2018-12-16)
 
-changeset:   
-tag:         v8.1.0
-user:        Acidfrost59
-date:        
+Version 1.4d
+Created change log from the Readme.txt file. Changed TOC to 80100
 
-Created change log from the Readme.txt file. 
+lightweight tag 014372f8757008234d568ac912fc023f35a01b32 v1.14c
+Author:    GitHub <noreply@github.com>
+Date:    Thu Dec 13 13:43:16 2018 -0800
 
-Version 1.14c Updated to BFA patch 8.1.0, addition of new pets, changed chat emote from owner's to owner:
+commit 014372f8757008234d568ac912fc023f35a01b32
+Author: Kris Springer <Acidfrost59@gmail.com>
+Date:   Thu Dec 13 13:43:16 2018 -0800
 
-Version 1.14b Addition of new pets. General Emote updates.
+    Update to Blizzard Patch 8.1.0
+
+    Added new pets. Changed output in chat from owner's to owner:
+
+lightweight tag 4ff92eba833ebc64f92c0c30c1cdc214fb414fdc v1.14b
+Author:	GitHub <noreply@github.com>
+Date:	Mon Nov 19 08:47:10 2018 -0800
+
+commit 4ff92eba833ebc64f92c0c30c1cdc214fb414fdc
+Author: Kris Springer <Acidfrost59@gmail.com>
+Date:   Mon Nov 19 08:47:10 2018 -0800
+
+    Version 1.14b
+    
+    Add 2 pets, general emote update.
+
+commit 9b69877c7f54c728d1c48d228a029e1d9a75824f
+Author: Kris Springer <Acidfrost59@gmail.com>
+Date:   Mon Nov 19 08:24:51 2018 -0800
+
+    Version 1.14b
+
+commit 082d996162bad9301af5d06650c2a49670b66376
+Author: Kris Springer <Acidfrost59@gmail.com>
+Date:   Mon Nov 19 08:06:20 2018 -0800
+
+    Update to 1.14b
+    
+    Add new pets. General emote maintenance.
+
+commit 4d10a301fb2e0e9d429460f9d5e65c7aeeb3987a
+Author: Kris Springer <Acidfrost59@gmail.com>
+Date:   Mon Nov 19 07:59:49 2018 -0800
+
+    Update CritterEmote.toc
+
+commit 4839d87ac26f368ceaf240bd6dbff7e6404dd49a
+Author: Kris Springer <Acidfrost59@gmail.com>
+Date:   Mon Nov 19 07:43:33 2018 -0800
+
+    Version 1.14b
+    
+    Added critters, general emote changes.
 
 Version 1.14a Fixed bug that caused addon to continuously emote
 

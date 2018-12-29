@@ -1,6 +1,6 @@
 --Critter Emote
 
---The emote table was rewritten at version 1.14c WOW version 8.1.0
+--The emote table was rewritten at version 1.14d WOW version 8.1.0
 
 --Some important Emote tables
 ---Random
@@ -2084,7 +2084,7 @@ Random = {
 		"plays with a hula-hoop.",
 		"plays 20 questions.",
         "plays solitaire.",
-        "throws down a board to play Hearthstone.",
+        "throws down a board to play Hearthstone with %t.",
 		"plays air guitar.", "plays air guitar.",
 		"rocks out.",
 		"gets down.",
@@ -2095,7 +2095,7 @@ Random = {
 		"waves their hands in the air like they just don't care.",
 		"wants their noms.",
 		"thinks that the night elf mohawk is the coolest.",
-		"pretends to be a rocketship.  VROOOMMM",
+		"pretends to be a rocketship. VROOOMMM",
 		"thinks the Iron Horde are a bunch of silly billys.",
 		"thinks pandas are funny looking.",
 		"eats some hay, even though hay is for horses.",
@@ -2128,7 +2128,7 @@ Random = {
 		"quotes \"Noble countrymen, evil is upon us. Darkness has befallen our shores. Rise and slay thy enemies… strike, strike so others shall live. The meek shall not fade into the night… live my brethren, live.\"",
 		"quotes \"Do not go gentle into that long night.\"",
 		"says \"It's been a hard day's night.\"",
-		"plays Hearthstone.",
+		"plays Hearthstone.", "plays Hearthstone.",
 		"plays Heroes of the Storm.",
 		"plays Diablo III.",
 		"wants to join the Brawlers' Guild.",
@@ -2149,8 +2149,7 @@ Random = {
 		"wants to make sure you are prepared.",
 		"says \"You want the truth!  You can't handle the truth!\"",
 		"wants to boldly go where no pet has gone before!",
-		"says \"Ceci n'est une pipe\"",
-		"says \"In bocca al lupo!\"",
+		"I am not "
 		"says \"YOLO\"",
 		"dreams of being a little pony.",
 		"gets drunk.",
