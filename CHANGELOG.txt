@@ -1,6 +1,12 @@
 ﻿# BPCritterEmote
 
-## [v8.1.0](https://github.com/Acidfrost59/WOWBPCritterEmote) (2018-12-16)
+## [v8.1.5](https://github.com/Acidfrost59/WOWBPCritterEmote) (2019-03-16)
+
+Version 1.5
+Updated to 8.1.5 with new pets
+
+Version 1.4e
+Fixed error in code
 
 Version 1.4d
 Created change log from the Readme.txt file. Changed TOC to 80100
