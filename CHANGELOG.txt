@@ -1,6 +1,16 @@
 ﻿# BPCritterEmote
 
-## [v8.1.5](https://github.com/Acidfrost59/WOWBPCritterEmote) (2019-03-16)
+## [v8.2](https://github.com/Acidfrost59/WOWBPCritterEmote) (2019-07-08)
+
+Version 1.6
+Updated to 8.2
+Fixed error that pulled pet owner as a nil value (Thank you Fysker!)
+Updated with new pets added in 8.2
+Fixed the toggle system so individual emote tables can be off or on
+Added and deleted emotes.
+Added a "Special" area in the CritterEmote_Emote section for people to add their own emotes.
+Updated README document to reflect changes. 
+
 
 Version 1.5
 Updated to 8.1.5 with new pets
