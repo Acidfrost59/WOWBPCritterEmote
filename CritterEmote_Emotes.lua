@@ -1,6 +1,6 @@
---Critter Emote
+--BP Critter Emote
 
---Revision 1.16 WOW version 8.2
+--Revision 1.16a WOW version 8.2
 
 --Some important Emote tables
 ---Random

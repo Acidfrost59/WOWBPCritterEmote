@@ -1,6 +1,7 @@
-﻿# BPCritterEmote
+﻿Name: BP Critter Emote
 
-## [v8.2](https://github.com/Acidfrost59/WOWBPCritterEmote) (2019-07-08)
+Version 1.6a
+Working on file issues on Github and Curseforge. It is uploading only the .zip file and not replacing previous versions.
 
 Version 1.6
 Updated to 8.2
