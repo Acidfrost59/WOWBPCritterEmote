@@ -1,4 +1,4 @@
---BP Critter Emote
+--Critter Emote
 
 local CritterEmote_Cats = {
   Normal = true;
@@ -18,7 +18,7 @@ local CritterEmote_Tooltip = nil ;
 local CritterEmote_enable = true;
 local CritterEmote_randomEnable = true;
 local CritterEmote_forceEmote = false;
-local CritterEmote_version = "1.16a";
+local CritterEmote_version = "1.7";
 local is5_0 = select(4, GetBuildInfo()) < 50100
 local _G = _G
 local C_PetJournal = _G.C_PetJournal
@@ -33,14 +33,14 @@ local CritterEmote_Strings = {
         ["HELP_GENERAL"] = "<cmd>/ce</cmd> has critter emote whatever you like.",
         ["HELP_1"] = "<cmd>/ce</cmd> - have your critter perform a random emote.",
         ["HELP_2"] = "<cmd>/ce <message></cmd> - have your critter emote your <message>.",
-        ["HELP_3"] = "<cmd>/ce [options]</cmd> - perform the various option:",
+        ["HELP_3"] = "<cmd>/ce [options]</cmd> - perform the requested option:",
         ["HELP_4"] = "[options] = ",
         ["HELP_5"] = "info   : displays Critter Emote information.",
         ["HELP_6"] = "help   : displays this help.",
         ["HELP_7"] = "off    : turns the emotes off.",
         ["HELP_8"] = "on     : turns the emotes on.",
         ["HELP_9"] = "random_off : turns all random emotes off.",
-        ["HELP_10"] = "random_on : turns all random emotes back on.",
+        ["HELP_10"] = "random_on : turns all random emotes on.",
         ["HELP_11"] = "options: Displays current options.",
         ["HELP_12"] = "silly  : Toggles silly emotes.",
         ["HELP_13"] = "special  : Toggles special emotes.",
@@ -69,11 +69,11 @@ local function CritterEmote_SlashHandler(msg, editbox)
   elseif (msg == 'off' ) then
     CritterEmote_enable = false;
     CritterEmote_UpdateSaveTable();
-    CritterEmote_Message("Critter Emote is now disabled.  The critters are sad.");
+    CritterEmote_Message("Critter Emote is now disabled. The critters are sad.");
   elseif (msg == 'on' ) then
     CritterEmote_enable = true;
     CritterEmote_UpdateSaveTable();
-    CritterEmote_Message("Critter Emote is now enabled.  Party Time, critters!");
+    CritterEmote_Message("Critter Emote is now enabled. Party Time, critters!");
         elseif (msg == "info") then
                 CritterEmote_Info();
         elseif (msg == "help") then  
