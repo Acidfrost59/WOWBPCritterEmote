@@ -1,11 +1,14 @@
 ﻿# BPCritterEmote
 
-## [v9.0.1]
-## [v8.3](https://github.com/Acidfrost59/WOWBPCritterEmote) (2020-05-07)
+## [v9.0.1](https://github.com/Acidfrost59/WOWBPCritterEmote) (2020-10-27)
+
+Version 1.9.01.02
+Rollback to 1.7 and resubmitted file as it popped a bunch of errors. (Grabbed bad file for upload?)
+Coding error found by Starfighter7. 
 
 Version 1.9.01.01
 Updated to 9.0.1
-Clarified naming convention for Revisions/Version
+new naming convention for revisions  1 for CritterEmote v1. WOW Patch. WOW subpatch. # of addon revisions under current patch/subpatch
 
 Version 1.7
 Updated to 8.3
