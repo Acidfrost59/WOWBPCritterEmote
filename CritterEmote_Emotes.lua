@@ -1,6 +1,6 @@
 --Critter Emote
 
---Revision 1.9.01.02 WOW version 9.0.1
+--Revision 1.9.02.01 WOW version 9.0.2
 
 --Some important Emote tables
 ---Random
@@ -3191,7 +3191,7 @@ Target = {
 		"smells %t. Wow, someone stinks!",
 		"flexes at %t. Oooooh so strong!",
 		"struts around %t. Cluck, Cluck, Chicken!",
-		"is surprised by %t's actions.",
+		"is surprised by %t\'s actions.",
 		"surrenders before %t. Such is the agony of defeat...",
 		"wants to talk things over with %t",
 		"talks excitedly with %t",
@@ -3211,7 +3211,7 @@ Target = {
 		"looks at %t and raise your hand.",
 		"asks %t to wait.",
 		"waves at %t.",
-		"cries on %t's shoulder.",
+		"cries on %t\'s shoulder.",
 		"welcomes %t.",
 		"whines pathetically at %t.",
 		"whistles at %t.",
@@ -3227,7 +3227,7 @@ Target = {
 	},
 	cat = {
 		"purrs at %t.",
-		"wraps itself around %t leg.",
+		"wraps itself around %t\'s leg.",
 		"paws at %t.",
 		"looks at %t for some food.",
 	},
@@ -3239,7 +3239,7 @@ Target = {
 	},
 	reptile = {
 		"hisses at %t.",
-		"wraps itself around %t leg.",
+		"wraps itself around %t\'s leg.",
 		"hisses at %t.",
 		"looks at %t for some food.",
 	},
@@ -3363,7 +3363,7 @@ YAWN = {
 
 -- Special thanks to Warcraftpets.com for pet updates. Thanks to pet plus for the categories! These have more to do with nature then with pet categories.
 -- aquatic, bat, beast, bird, cat, chicken, crab, croc, dino, dragon, dragonhawk, elephant, elemental, evil, flying_insect, frog,
---  humanoid, inanimate, insect, mech, murloc, ooze, plant, rabbit, reptile, turtle
+--  humanoid, inanimate, insect, mech, murloc, ooze, plant, rabbit, reptile, turtle, Wintervale
 CritterEmote_Personalities = {
 		["Abyssal Eel"] = "aquatic",
 		["Abyssal Slithering"] = "aquatic",

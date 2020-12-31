@@ -1,6 +1,10 @@
 ﻿# BPCritterEmote
 
-## [v9.0.1](https://github.com/Acidfrost59/WOWBPCritterEmote) (2020-10-27)
+## [v9.0.2](https://github.com/Acidfrost59/WOWBPCritterEmote) (2020-12-30)
+
+Version 1.9.02.01
+Updated to 9.0.2
+
 
 Version 1.9.01.02
 Rollback to 1.7 and resubmitted file as it popped a bunch of errors. (Grabbed bad file for upload?)
