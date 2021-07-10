@@ -1,6 +1,6 @@
 --Critter Emote
 
---Revision 1.9.02.01 WOW version 9.0.2
+--Revision 1.9.1.01 WOW version 9.1.0
 
 --Some important Emote tables
 ---Random
@@ -3363,7 +3363,7 @@ YAWN = {
 
 -- Special thanks to Warcraftpets.com for pet updates. Thanks to pet plus for the categories! These have more to do with nature then with pet categories.
 -- aquatic, bat, beast, bird, cat, chicken, crab, croc, dino, dragon, dragonhawk, elephant, elemental, evil, flying_insect, frog,
---  humanoid, inanimate, insect, mech, murloc, ooze, plant, rabbit, reptile, turtle, Wintervale
+--  humanoid, inanimate, insect, mech, murloc, ooze, plant, rabbit, reptile, turtle
 CritterEmote_Personalities = {
 		["Abyssal Eel"] = "aquatic",
 		["Abyssal Slithering"] = "aquatic",
