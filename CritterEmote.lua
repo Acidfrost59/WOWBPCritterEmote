@@ -1,7 +1,7 @@
 --Critter Emote
 
---Revision 1.9.1.01 (naming convention X=orig.X=WOW Xpac.XX=WoW xpac sub.XX=update revision)
---WOW version 9.1.0
+--Revision 1.9.15.02 (naming convention X=orig.X=WOW Xpac.XX=WoW xpac sub.XX=update revision)
+--WOW version 9.1.5
 
 
 local CritterEmote_Cats = {

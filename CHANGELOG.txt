@@ -1,6 +1,10 @@
 ﻿# BPCritterEmote
 
-## [v9.1.0](https://github.com/Acidfrost59/WOWBPCritterEmote) (2021-07-09)
+## [v9.1.5](https://github.com/Acidfrost59/WOWBPCritterEmote) (2021-11-14)
+
+Version 1.9.15.02
+updated to 9.1.5
+
 
 Version 1.9.10.01
 updated to 9.1.0
