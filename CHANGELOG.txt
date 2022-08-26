@@ -1,5 +1,9 @@
 ﻿# BPCritterEmote
 
+version 1.9.27.01
+update to 9.2.7
+Added and deleted emotes
+
 ## [v9.1.5](https://github.com/Acidfrost59/WOWBPCritterEmote) (2021-11-14)
 
 Version 1.9.15.02

@@ -1,6 +1,6 @@
 --Critter Emote
 
---Revision 1.9.15.02 WOW version 9.1.5	
+--Revision 1.9.27.01 WOW version 9.2.7	
 
 --Some important Emote tables
 ---Random
@@ -1953,7 +1953,7 @@ Random = {
 		"would like to go see the Dwarves at Dun Morogh.",
 		"would like to see the vineyards in Elwynn Forest.",
 		"would like to visit Eversong Woods.",
-		"would like to visit Gilneas. Does wolfsbane really work with Worgens?",
+		"would like to visit Gilneas. Does wolfsbane work on Worgens?",
 		"would like to visit Tirisfal Glades.",
 		"would like to visit Ghostlands",
 		"wishes they could have seen the dam in Loch Modan before Darkwing destroyed it.",
@@ -1966,7 +1966,7 @@ Random = {
 		"would like to visit the Alterac Mountains.",
 		"would like to see the elementals in Arathi Highlands.",
 		"would like to visit The Hinterlands.",
-		"would like to see Stranglethorn.",
+		"would like to see the pirates in Stranglethorn.",
 		"would like to become a zombie in Western Plaguelands.",
 		"would like to bring the Light to the Eastern Plaguelands.",
 		"would like to take a dust bath in the Badlands.",
@@ -2041,7 +2041,7 @@ Random = {
         "misses the Vale of Eternal Blossoms, remembering when it was beautiful and not scarred.",
         "never wants to see the world from Kun-Lai Summit.",
         "thinks Townlong Steppes is scary.",
-        "wonders how the Wandering Isle wanders?",
+        "wonders how the Wandering Isle wanders.",
         "would like to frolic in the Jade Forest.",
         "would like to go fishing in the Krasarang Wilds and meet Nat Pagle again.",
         "would like to burn the Dread Wastes to the ground.",
@@ -2071,6 +2071,9 @@ Random = {
 		"wonders about the Drust of Drustvar.",
 		"wishes Queen Azshara would just stay hidden in Nazjatar. ",
 		"loves visiting the mech in Mechagon.",
+		"is amazed that we can enter The Shadowlands. ",
+		"would like to see The Arbiter in Oribos",
+		"finds The Jailer in The Maw distasteful",
 
   },
   default_Silly = {
@@ -2290,7 +2293,7 @@ Random = {
 	  "says, \"Who's the noob now, %t?\"",
 	  "Heh, heh, heh, heh, heh.",
   },
-  default_Special= {
+  default_Special = {
 	  "asks, \"What would you like me to say?\"",
 	  "says, \"Thanks for letting me talk.\"",
 	  "whispers, \"Time for snacks!\"",
