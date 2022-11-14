@@ -1,5 +1,12 @@
 ﻿# BPCritterEmote
 
+version 1.10.00.01
+update to 10.0.0
+Worked on issue with undead only emoting two songs
+Reviewed and added missing pets
+
+
+
 version 1.9.27.01
 update to 9.2.7
 Added and deleted emotes
