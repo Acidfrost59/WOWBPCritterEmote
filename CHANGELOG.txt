@@ -1,10 +1,26 @@
 ﻿# BPCritterEmote
 
+version 1.10.02.01
+updated to 10.0.2
+
+
 version 1.10.00.01
 update to 10.0.0
 Worked on issue with undead only emoting two songs
 Reviewed and added missing pets
 
+
+lightweight tag 05d8cb93aba85acee3aef08537636f8c68e6132f v1.10.00.01
+Author:	GitHub <noreply@github.com>
+Date:	Mon Nov 14 00:07:41 2022 -0800
+
+commit 05d8cb93aba85acee3aef08537636f8c68e6132f
+Author: Kris Springer <Acidfrost59@gmail.com>
+Date:   Mon Nov 14 00:07:41 2022 -0800
+
+    Update to WoW ver. 10.0.0
+    
+    Reviewed the issue with undead songs. Added missing pets.
 
 
 version 1.9.27.01

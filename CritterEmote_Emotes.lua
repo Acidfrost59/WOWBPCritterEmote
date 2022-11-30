@@ -1,6 +1,6 @@
 --Critter Emote
 
---Revision 1.10.0.01 WOW version 10.0.0
+--Revision 1.10.02.02 WOW version 10.0.02
 
 --Some important Emote tables
 ---Random
@@ -3528,6 +3528,7 @@ CritterEmote_Personalities = {
 	["Bloodseeker"] = "fish",
 	["Bloodsting Wasp"] = "flying_insect",
 	["Bloodstone Tunneler"] = "beast",
+	["Bloodsucker Vespoid"] = "flying_insect",
 	["Bloodthorn Hatchling"] = "beast",
 	["Blorp"] = "fish",
 	["Blossoming Ancient"] = "plant",
