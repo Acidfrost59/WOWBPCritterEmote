@@ -1,0 +1,7 @@
+package-as: CritterEmote
+     
+manual-changelog: CHANGELOG.txt
+
+ignore:
+  - README.txt
+  
