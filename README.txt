@@ -2,15 +2,15 @@
 
 The addon in your addon file will say, "CritterEmote".
 
-This addon will have your non-combat companion pets do fun and random things. If you are interested in having your minions and hunter pets do emotes, please try PetEmote.
+This addon will have your companion, AKA battle pet, pet do fun and random things in chat. This addon does not work for minions or hunter pets.
 
 When you have a pet out it will emote something fun every 5 minutes or so as long as you aren't in combat.  If you desire them to emote something custom you can use /ce instead of /emote.
 
-Your pets will also respond to in-game interaction.  Try /wave while targetting your pet.
+Your pets will also respond to in-game slash commands.  Try /wave while targetting your pet.
 
 They might just do something different when you target another player or NPC.
 
-If you would like to add your own emotes you can go into the CritterEmote file in addons and edit the default_special section in the CritterEmote_Emotes.lua You can also delete the emotes you just don't like. Keep in mind that when you modify the file, you will need to remodify the file when it is updated. You may want to make a list in notepad of deletions/additions for your own ease or save a copy of CritterEmote_Emotes.lua in the file as a copy. The copied lua should say "-Copy" (i.e. CritterEmote_Emote-Copy.Lua). You can then open the files in your favorite editor for ease of comparison and editing. (I use Visual Studio Code).
+If you would like to add your own emotes you can go into the CritterEmote file in addons and edit the default_special section in the CritterEmote_Emotes.lua You can also delete the emotes you just don't like. Unless you keep a copy for yourself, you will lose changes when the file is updated. You may want to make a list in notepad of deletions/additions for your own ease or save a copy of CritterEmote_Emotes.lua in the file as a copy. The copied lua should say "-Copy" (i.e. CritterEmote_Emote-Copy.Lua). You can then open the files in your favorite editor for ease of comparison and editing. (I use Visual Studio Code).
 
 If you would like to see an emote added or deleted please send the request to me for review. 
 
