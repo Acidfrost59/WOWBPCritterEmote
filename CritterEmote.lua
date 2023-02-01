@@ -1,7 +1,7 @@
 --Critter Emote
 
---Revision 1.10.02.03 (naming convention X=orig.X=WOW Xpac.XX=WoW xpac sub.XX=update revision)
---WOW version 10.0.02
+--Revision 1.10.05.04 (naming convention X=orig.X=WOW Xpac.XX=WoW xpac sub.XX=update revision)
+--WOW version 10.0.5
 
 
 local CritterEmote_Cats = {
@@ -22,7 +22,7 @@ local CritterEmote_Tooltip = nil ;
 local CritterEmote_enable = true;
 local CritterEmote_randomEnable = true;
 local CritterEmote_forceEmote = false;
-local CritterEmote_version = "1.10.02.03";
+local CritterEmote_version = "1.10.05.04";
 local is5_0 = select(4, GetBuildInfo()) < 50100
 local _G = _G
 local C_PetJournal = _G.C_PetJournal

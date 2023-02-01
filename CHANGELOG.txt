@@ -1,5 +1,9 @@
 ﻿# BPCritterEmote
 
+version 1.10.05.04
+Working to fix .pkgmeta to work with other addon managements.
+Update to 10.0.5
+
 version 1.10.02.03
 added .pkgmeta
 

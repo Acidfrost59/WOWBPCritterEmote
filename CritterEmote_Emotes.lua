@@ -1,6 +1,6 @@
 --Critter Emote
 
---Revision 1.10.02.03 WOW version 10.0.02
+--Revision 1.10.05.04 WOW version 10.0.5
 
 --Some important Emote tables
 ---Random
