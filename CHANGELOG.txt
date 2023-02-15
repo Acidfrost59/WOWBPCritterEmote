@@ -1,9 +1,10 @@
 ﻿# BPCritterEmote
- 
-Version 1.10.05.05
-Unable to get .pkgmeta to play nice with Curseforge. Deleted and resubmit to CF.
 
-version 1.10.05.04
+Version 1.10.05.05
+Unable to get .pkgmeta to play well with Curseforge. Removed to get uploaded to Curseforge.
+
+
+Version 1.10.05.04
 Working to fix .pkgmeta to work with other addon managements.
 Update to 10.0.5
 
