@@ -1,5 +1,10 @@
 ﻿# BPCritterEmote
 
+Version 1.10.10.07
+Update to WOW version 10.1
+fixed issue with loading events so only CritterEmote is mod. 
+Added new pets
+
 Version 1.10.05.05
 Unable to get .pkgmeta to play well with Curseforge. Removed to get uploaded to Curseforge.
 

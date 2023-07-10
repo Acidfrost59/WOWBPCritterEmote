@@ -1,7 +1,7 @@
 --Critter Emote
 
---Revision 1.10.05.04 (naming convention X=orig.X=WOW Xpac.XX=WoW xpac sub.XX=update revision)
---WOW version 10.0.5
+--Revision 1.10.10.07 (naming convention X=orig.X=WOW Xpac.XX=WoW xpac sub.XX=update revision)
+--WOW version 10.1
 
 
 local CritterEmote_Cats = {
@@ -22,7 +22,7 @@ local CritterEmote_Tooltip = nil ;
 local CritterEmote_enable = true;
 local CritterEmote_randomEnable = true;
 local CritterEmote_forceEmote = false;
-local CritterEmote_version = "1.10.05.04";
+local CritterEmote_version = "1.10.10.07";
 local is5_0 = select(4, GetBuildInfo()) < 50100
 local _G = _G
 local C_PetJournal = _G.C_PetJournal
@@ -591,13 +591,14 @@ end
 --This function returns real events 
 --This can be a way for pets to interact with the world more.
 --TODO
+--revised arg2 through arg5 with tostring so only CritterEmote is referenced. Was pulling other mods into arg1.
 function CritterEmote_OnEvent(self, event, arg1, arg2, arg3, arg4, arg5, ...)
   CritterEmote_printDebug("On Event Tripped with event : " .. event);
   if(arg1) then CritterEmote_printDebug("\targ1 : " .. arg1) end;
-  if(arg2) then CritterEmote_printDebug("\targ2 : " .. arg2) end;
-  if(arg3) then CritterEmote_printDebug("\targ3 : " .. arg3) end;
-  if(arg4) then CritterEmote_printDebug("\targ4 : " .. arg4) end;
-  if(arg5) then CritterEmote_printDebug("\targ5 : " .. arg5) end;
+  if(arg2) then CritterEmote_printDebug("\targ2 : " .. tostring(arg2)) end;
+  if(arg3) then CritterEmote_printDebug("\targ3 : " .. tostring(arg3)) end;
+  if(arg4) then CritterEmote_printDebug("\targ4 : " .. tostring(arg4)) end;
+  if(arg5) then CritterEmote_printDebug("\targ5 : " .. tostring(arg5)) end;
   if event == "ADDON_LOADED" then
     CritterEmote_AddonLoaded();
   end

@@ -1,6 +1,6 @@
 --Critter Emote
 
---Revision 1.10.05.04 WOW version 10.0.5
+--Revision 1.10.10.07 WOW version 10.1
 
 --Some important Emote tables
 ---Random
@@ -8,6 +8,7 @@
 
 --Organized via
 ---Emote,default/Category/PetName,emotes
+
 CritterEmote_ResponseDb = {
 ABSENT = {
   default = { "blinks at you.", },
@@ -21,7 +22,7 @@ ABSENT = {
   chicken = { "pecks at your feet.", },
   ["Deathy"] = { "starts a little fire.", },
   ["Lil' Deathwing"] = { "starts a little fire.", },
-  ["Lil' K.T."] = { "is used to dealing with absent minded zombies.", }
+  ["Lil' K.T."] = { "is used to dealing with absent minded zombies.", },
 },
 AGREE = {
 	default = { "nods.", },
@@ -238,9 +239,7 @@ BOUNCE = {
 	["Lil' K.T."] = { "doesn't like this foolishness.", },
 },
 BOW = {
-	default = {
-		"bows at you.",
-	},
+	default = {"bows at you.", },
 	["Deathy"] = { "praises you for acknowledging %t's superiority.", },
 	["Gregarious Grell"] = { "looks at you in confusion.", },
 	["Lil' Deathwing"] = { "praises you for acknowledging %t's superiority.", },
@@ -308,7 +307,7 @@ BYE = {
   mech = { 
 		"shuts down.", 
 		},
-  ["Gregarious Grell"] = { "says, \"You know, we've had a lot of fun together, it's been really special, but I think it's time I should start seeing other masters. Just a little on the side. No no no it's not you, it's not you, it's me. I just need my space.\"", },
+  ["Gregarious Grell"] = { "says, \"You know, we've had a lot of fun together, it's been really special, but I think it's time I should start seeing other masters. Just a little on the side. No, no, no, it's not you, it's not you, it's me. I just need my space.\"", },
 },
 CACKLE = {
 	default = {
@@ -318,7 +317,7 @@ CACKLE = {
 		"rawrs maniacally with you.",
 	},
 	reptile = {
-		"hisses manically with you.",
+		"hisses maniacally with you.",
 	},
 },
 CALM = {
@@ -1871,6 +1870,7 @@ Random = {
 		"loves archaeology.",
 		"loves the Feast of Winter Veil.",
 		"loves Brewfest.",
+		"loves Hallow's End.",
 		"wants a drink.",
 		"waves at everybody.",
 		"puzzles over your outfit.",
@@ -1946,6 +1946,7 @@ Random = {
 		"thinks, therefore is.",
 		"ama il formaggio.",
 		"wants to find true love.",
+		"perks head up to listen to the conversation as it helps to stay current on world affairs.",
 	},
   default_Locations = {
 		"wants to explore all of Azeroth.",
@@ -2074,6 +2075,8 @@ Random = {
 		"is amazed that we can enter The Shadowlands. ",
 		"would like to see The Arbiter in Oribos",
 		"finds The Jailer in The Maw distasteful",
+		"wonders how the dracthyr were frozen in time.",
+		"flies with dragons on the Dragon Isles.",
 
   },
   default_Silly = {
