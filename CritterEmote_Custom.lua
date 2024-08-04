@@ -1,0 +1,1 @@
+CritterEmote_Player {}

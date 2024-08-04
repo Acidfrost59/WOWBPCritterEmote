@@ -1,13 +1,81 @@
-## Interface: 100100
-## Title: Critter Emotes
-## Author: Previous: Zompter, seegeen00 (Chinchilla Critter Emotes) Current: Acidfrost59 and Fysker	
-## Version: 1.10.10.07
+## Interface: 11002
+## Title: Critter Emote
+## Author: based on the original Critter Emote addon created by Zompter, later by seegeen00 (Chinchilla Critter Emotes) Current: Acidfrost59, Fysker, and OpenAI. (2024). ChatGPT [Large language model]. /g/g-k3IqoCe1l-code-generator
+## Version: 2.11.02.01
 ## email: PBCritterEmote@gmail.com
-## Notes: Allows your non-combat companion pets to send random emotes to chat.
-## SavedVariablesPerCharacter: CE_Save_Table
+## Notes: Allows your companion pets to send random emotes to chat and to respond to in-game slash commands when targetted
 ## LoadOnDemand: 0
-## DefaultState: Enabled
+## DefaultState: enabled
+## SavedVariables: CritterEmote_Variables
+## SavedVariablesPerCharacter: CritterEmote_CharacterVariables
 
-CritterEmote.lua 
-CritterEmote_Emotes.lua 
-CritterEmote.xml
+# Main Lua file
+CritterEmote.lua
+
+# Localization files
+localization.en.lua
+localization.de.lua
+localization.es.lua
+localization.fr.lua
+localization.it.lua
+localization.ru.lua
+
+# Emote files
+CritterEmote_General_en.lua
+CritterEmote_General_de.lua
+CritterEmote_General_es.lua
+CritterEmote_General_fr.lua
+CritterEmote_General_it.lua
+CritterEmote_General_ru.lua
+CritterEmote_Silly_en.lua
+CritterEmote_Silly_de.lua
+CritterEmote_Silly_es.lua
+CritterEmote_Silly_fr.lua
+CritterEmote_Silly_it.lua
+CritterEmote_Silly_ru.lua
+CritterEmote_Locations_en.lua
+CritterEmote_Locations_de.lua
+CritterEmote_Locations_es.lua
+CritterEmote_Locations_fr.lua
+CritterEmote_Locations_it.lua
+CritterEmote_Locations_ru.lua
+CritterEmote_Songs_en.lua
+CritterEmote_Songs_de.lua
+CritterEmote_Songs_es.lua
+CritterEmote_Songs_fr.lua
+CritterEmote_Songs_it.lua
+CritterEmote_Songs_ru.lua
+CritterEmote_Special_en.lua
+CritterEmote_Special_de.lua
+CritterEmote_Special_es.lua
+CritterEmote_Special_fr.lua
+CritterEmote_Special_it.lua
+CritterEmote_Special_ru.lua
+CritterEmote_PVP_en.lua
+CritterEmote_PVP_de.lua
+CritterEmote_PVP_es.lua
+CritterEmote_PVP_fr.lua
+CritterEmote_PVP_it.lua
+CritterEmote_PVP_ru.lua
+
+#Custom Chat
+CritterEmote_Custom.lua
+
+# Personalities file
+CritterEmote_Personalities.lua
+
+# ResponseDb
+CritterEmote_ResponseDb_en.lua
+CritterEmote_ResponseDb_de.lua
+CritterEmote_ResponseDb_es.lua
+CritterEmote_ResponseDb_fr.lua
+CritterEmote_ResponseDb_it.lua
+CritterEmote_ResponseDb_ru.lua
+
+#Target
+CritterEmote_Target_en.lua
+CritterEmote_Target_de.lua
+CritterEmote_Target_es.lua
+CritterEmote_Target_fr.lua
+CritterEmote_Target_it.lua
+CritterEmote_Target_ru.lua
