@@ -1,5 +1,11 @@
 ﻿# BPCritterEmote
 
+Version 2.11.02.01
+Update to WOW version 11.02
+Major rewrite of the entire addon
+Added Localization
+Added files with individual localization of each random emote
+
 Version 1.10.10.07
 Update to WOW version 10.1
 fixed issue with loading events so only CritterEmote is mod. 
