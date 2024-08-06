@@ -1,4 +1,4 @@
-## Interface: 11002
+## Interface: 110000
 ## Title: Critter Emote
 ## Author: based on the original Critter Emote addon created by Zompter, later by seegeen00 (Chinchilla Critter Emotes) Current: Acidfrost59, Fysker, and OpenAI. (2024). ChatGPT [Large language model]. /g/g-k3IqoCe1l-code-generator
 ## Version: 2.11.02.01
