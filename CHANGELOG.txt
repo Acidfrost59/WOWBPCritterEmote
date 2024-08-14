@@ -1,5 +1,10 @@
 ﻿# BPCritterEmote
 
+Version 1.11.02.01
+Updated to WOW vesion 11.0.2
+Added new pets with personalities
+Working on new revision. 
+
 Version 1.10.10.07
 Update to WOW version 10.1
 fixed issue with loading events so only CritterEmote is mod. 

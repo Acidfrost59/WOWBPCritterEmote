@@ -6,7 +6,7 @@ This addon will have your non-combat companion pets do fun and random things.
 
 When you have a pet out it will emote something fun every five (5) minutes or so as long as you aren't in combat.  If you desire them to emote something custom you can use /ce instead of /emote.
 
-Your pets will also respond to in-game interaction.  Try /wave while targetting your pet.
+Your pets will also respond to in-game interaction.  Try /wave while targeting your pet.
 
 They might just do something different when you target another player or NPC.
 
@@ -45,4 +45,6 @@ random Emotes - This is broken into 6 categories--General, Silly, Song, PVP, Spe
 target - if something is targeted (including the pet), a random emote may be directed at the target.
 
 CritterEmote was originally authored by Zompter as Critter Emote, then Seegeen as Chinchilla Critter Emote. I loved this add-on so much I just couldn't let it go. The abandoned addon guidelines required a rename for CurseForge, though it is still found under CritterEmote in the addon files.
-Special thanks to Fysker for all his programming assistance. 
+Special thanks to Fysker for all his programming assistance.
+
+As of August 2024 Acidfrost59 is working on a complete rewrite of the CritterEmote file. One of the areas is localization. I am working on the esMX and esES files. My currentfiles are geared toward enUS.
