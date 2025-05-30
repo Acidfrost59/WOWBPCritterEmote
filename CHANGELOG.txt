@@ -1,5 +1,10 @@
 ﻿# BPCritterEmote
 
+Version 1.11.1.05.01
+updated to WOW Version 11.1.5
+Added new pets with personalities
+
+
 Version 1.11.02.01
 Updated to WOW vesion 11.0.2
 Added new pets with personalities
