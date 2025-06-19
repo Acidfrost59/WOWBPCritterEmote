@@ -1,7 +1,7 @@
 --Critter Emote aka BP CritterEmote
 
---Revision 1.11.1.5.01 (naming convention X.XX.X or XX.X if needed.XX where X=critter emote version.X=WOW Xpac.X or XX=WoW xpac sub.X = addt Xpac sub as needed. XX=update revision counting up as needed)
---WOW version 11.1.5
+--Revision 1.11.1.7.01 (naming convention X.XX.X or XX.X if needed.XX where X=critter emote version.X=WOW Xpac.X or XX=WoW xpac sub.X = addt Xpac sub as needed. XX=update revision counting up as needed)
+--WOW version 11.1.7
 
 
 local CritterEmote_Cats = {
@@ -22,7 +22,7 @@ local CritterEmote_Tooltip = nil ;
 local CritterEmote_enable = true;
 local CritterEmote_randomEnable = true;
 local CritterEmote_forceEmote = false;
-local CritterEmote_version = "1.11.1.5.01";
+local CritterEmote_version = "1.11.1.7.01";
 local is5_0 = select(4, GetBuildInfo()) < 50100
 local _G = _G
 local C_PetJournal = _G.C_PetJournal
@@ -62,14 +62,18 @@ local CritterEmote_Strings = {
 local function CritterEmote_SlashHandler(msg, editbox)
         if (msg == 'critter' or msg == "battle pet") then
                 print('I love to talk!');
-        elseif msg == 'test' then
-                print("GUID = " .. C_PetJournal.GetSummonedPetGUID())
-                CritterEmoteScanTooltip:ClearLines()
-                CritterEmoteScanTooltip:SetUnit("target")
-                print("TL1 = " .. CritterEmoteScanTooltipTextLeft1:GetText())
-                print("TL2 = " .. CritterEmoteScanTooltipTextLeft2:GetText())
-                print("TL4 = " .. CritterEmoteScanTooltipTextLeft4:GetText())
-                print("# of lines = " .. CritterEmoteScanTooltip:NumLines())
+        elseif msg == "test" then
+  local guid = C_PetJournal.GetSummonedPetGUID()
+  print("GUID = " .. (guid or "none"))
+
+  local owner = CritterEmote_GetTargetPetsOwner()
+  if owner then
+    print("Target pet belongs to: " .. owner)
+  else
+    print("No valid pet target or companion owner text found.")
+  end
+
+  
   elseif (msg == 'off' ) then
     CritterEmote_enable = false;
     CritterEmote_UpdateSaveTable();
@@ -162,9 +166,8 @@ local function CritterEmote_SlashHandler(msg, editbox)
         end
 end
 
---[[
-//      Checks if target is player's pet by using GameTooltip
---]]
+--[Checks if target is player's pet by using GameTooltip]
+
 function CritterEmote_TargetIsPlayersPet()
         local ownerName = CritterEmote_GetTargetPetsOwner()
         return ( ownerName and ownerName == GetUnitName("player", false) )
@@ -185,85 +188,24 @@ local function StrExtractCompanionOwner(str)
         end
 end
 
---[[
-//      Return: string with companion owners pet
---]]
-
 local function CritterEmote_GetTargetPetsOwner()
-  local cegtpo_tst = GetUnitName("player", false)
-  if UnitExists("target") and not UnitIsPlayer("target") then
-    local cegtpo_type = UnitCreatureType("target")
-    if cegtpo_type and ((cegtpo_type == "Wild Pet") or (cegtpo_type == "Non-combat Pet")) then
-      CritterEmoteScanTooltip:ClearLines()
-      CritterEmoteScanTooltip:SetUnit("target")
-      local cegtpo_obj = CritterEmoteScanTooltip
-      for cegtpo_x=1, cegtpo_obj:GetNumRegions() do 
-        local cegtpo_region = select(cegtpo_x, cegtpo_obj:GetRegions())
-        if cegtpo_region and cegtpo_region:GetObjectType() == "FontString" then
-          if cegtpo_region:GetText() then
-            if string.find(cegtpo_region:GetText(), "Companion", -9, true) then
-              if cegtpo_tst == string.match(cegtpo_region:GetText(), "[^']+") then
-                return cegtpo_tst
-              end
-            end
-          end
-        end
+  if not UnitExists("target") or UnitIsPlayer("target") then return nil end
+  local creatureType = UnitCreatureType("target")
+  if creatureType ~= "Wild Pet" and creatureType ~= "Non-combat Pet" then return nil end
+
+  local tooltipData = C_TooltipInfo.GetUnit("target")
+  if not tooltipData or not tooltipData.lines then return nil end
+
+  local playerName = GetUnitName("player", false)
+  for _, line in ipairs(tooltipData.lines) do
+    if line.leftText and line.leftText:find("Companion", -9, true) then
+      local owner = string.match(line.leftText, "[^']+")
+      if owner == playerName then
+        return owner
       end
     end
   end
   return nil
-end
-
---obsolete function call. named xxxGetTargetPetsOwner so it will not be called. Will troubleshoot eventually
-function CritterEmote_xxxGetTargetPetsOwner()
-        CritterEmote_printDebug("Call to CritterEmote_GetTargetPetsOwner");
-        if UnitExists("target") and not UnitIsPlayer("target") then
-                local type = UnitCreatureType("target")
-				CritterEmote_printDebug("type = " .. type)
-                if type then
-                        if (type == "Wild Pet") or (type == "Non-combat Pet") then
-                                CritterEmoteScanTooltip:ClearLines()
-                                CritterEmoteScanTooltip:SetUnit("target")
-                                local text = CritterEmoteScanTooltipTextLeft2:GetText()
-                                if text then
-                                 if StrExtractCompanionOwner(text) then
-                                  text = CritterEmoteScanTooltipTextLeft2:GetText()
-                                 else
-                                  --text = CritterEmoteScanTooltipTextLeft3:GetText()
-                                end
-                               end
-                                CritterEmote_printDebug("1st text = " .. text)
-                                if text then
-                                        return StrExtractCompanionOwner(text)
-                                else
-                                        CritterEmote_printDebug("\tText from ScanTooltip returned nil.")
-                                        -- Alt Z and certain actions will sometimes cause CritterEmoteScanTooltip to hide. Compensating.
-                                        CritterEmoteScanTooltip:SetOwner( WorldFrame, "ANCHOR_NONE" )
-                                        CritterEmoteScanTooltip:ClearLines()
-                                        CritterEmoteScanTooltip:SetUnit("target")       
-                                        text = CritterEmoteScanTooltipTextLeft1:GetText()
-                                         if text then
-                                 if StrExtractCompanionOwner(text) then
-                                  text = CritterEmoteScanTooltipTextLeft2:GetText()
-                                 else
-                                  --text = CritterEmoteScanTooltipTextLeft3:GetText()
-                                end
-                               end
-                                        CritterEmote_printDebug("2nd text = " .. text)
-                                        if text then
-                                          return StrExtractCompanionOwner(text)         
-                                        else
-                                                CritterEmote_printDebug("\tText from ScanTooltip still returned nil :(")
-                                        end
-                                end
-                        else
-								CritterEmote_printDebug("not a battle pet")
-						end
-				else
-						CritterEmote_printDebug("no type detected")
-                end
-        end
-        return nil
 end
 
 --      For secure func hook on DoEmote()
@@ -371,16 +313,7 @@ function CritterEmote_OnLoad ()
         CritterEmoteFrame:RegisterEvent("UNIT_PET")
         CritterEmoteFrame:RegisterEvent("PLAYER_TARGET_CHANGED")
   
-        --Lets try something different.
-        --CritterEmote_Tooltip = CreateFrame( "GameTooltip", "CritterEmoteScanTooltip", UIParent, "GameTooltipTemplate")
-        --CritterEmoteScanTooltip:SetOwner( WorldFrame, "ANCHOR_NONE" );        
-
-        CritterEmote_Tooltip = CreateFrame( "GameTooltip", "CritterEmoteScanTooltip", nil, "GameTooltipTemplate" ); -- Tooltip name cannot be nil
-        CritterEmoteScanTooltip:SetOwner( WorldFrame, "ANCHOR_NONE" );
-        -- Allow tooltip SetX() methods to dynamically add new lines based on these
-        CritterEmoteScanTooltip:AddFontStrings(
-                CritterEmoteScanTooltip:CreateFontString( "$parentTextLeft1", nil, "GameTooltipText" ),
-                CritterEmoteScanTooltip:CreateFontString( "$parentTextRight1", nil, "GameTooltipText" ) );
+    
 
         --Define Slash Commands
         SLASH_CRITTEREMOTE1 = "/ce";
