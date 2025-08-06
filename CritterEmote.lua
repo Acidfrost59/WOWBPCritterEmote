@@ -1,7 +1,7 @@
 --Critter Emote aka BP CritterEmote
 
---Revision 1.11.1.7.01 (naming convention X.XX.X or XX.X if needed.XX where X=critter emote version.X=WOW Xpac.X or XX=WoW xpac sub.X = addt Xpac sub as needed. XX=update revision counting up as needed)
---WOW version 11.1.7
+--Revision 1.11.2.00.01 (naming convention X.XX.X or XX.X if needed.XX where X=critter emote version.X=WOW Xpac.X or XX=WoW xpac sub.X = addt Xpac sub as needed. XX=update revision counting up as needed)
+--WOW version 11.2
 
 
 local CritterEmote_Cats = {
@@ -22,7 +22,7 @@ local CritterEmote_Tooltip = nil ;
 local CritterEmote_enable = true;
 local CritterEmote_randomEnable = true;
 local CritterEmote_forceEmote = false;
-local CritterEmote_version = "1.11.1.7.01";
+local CritterEmote_version = "1.11.2.00.01";
 local is5_0 = select(4, GetBuildInfo()) < 50100
 local _G = _G
 local C_PetJournal = _G.C_PetJournal

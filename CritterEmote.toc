@@ -1,7 +1,7 @@
-## Interface: 110107
+## Interface: 110200
 ## Title: Critter Emotes
 ## Author: Previous: Zompter, seegeen00 (Chinchilla Critter Emotes) Current: Acidfrost59 and Fysker	
-## Version: 1.11.1.07.01
+## Version: 1.11.2.00.01
 ## email: PBCritterEmote@gmail.com
 ## Notes: Allows your non-combat companion pets to send random emotes to chat.
 ## SavedVariablesPerCharacter: CE_Save_Table

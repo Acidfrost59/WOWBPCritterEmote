@@ -8,7 +8,7 @@
 
 --update personality instructions  K:\extra\WOW Lua\API Data\Pet Data\How to from API to lua.txt
 
---Revision 1.11.1.07.01 WOW version 11.1.7 See CritterEmote.lua for naming convention
+--Revision 1.11.2.00.01 WOW version 11.2 See CritterEmote.lua for naming convention
 --Organized under several mini tables. Slash commands in chat are ResponseDB, for example
 
 CritterEmote_ResponseDb = {
@@ -4763,6 +4763,7 @@ CritterEmote_Personalities = {
     ["Rusty Snail"] = "snail",
     ["Rustyroot Snooter"] = "critter",
     ["Rusziona"] = "dragonkin",
+    ["Sa'bak's Blessed"] = "reptile",
     ["Sable"] = "canine",
     ["Salverun"] = "reptile",
     ["Sanctum Cub"] = "feline",
@@ -5021,7 +5022,7 @@ CritterEmote_Personalities = {
     ["Stoneskin Dredwing Pup"] = "bat",
     ["Stonewhisker"] = "critter",
     ["Stony"] = "bat",
-    ["Storm Pet Boss"] = "aquatic",
+    ["[DNT] Storm Pet Boss - Rare"] = "aquatic",
     ["Storm-Infused Snapdragon"] = "beast",
     ["Storm-Touched Bluefeather"] = "bird",
     ["Storm-Touched Ottuk"] = "critter",
